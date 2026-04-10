@@ -1,0 +1,16 @@
+name: drl-mtd-fdi
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pip
+  - pip:
+      - pypower
+      - torch
