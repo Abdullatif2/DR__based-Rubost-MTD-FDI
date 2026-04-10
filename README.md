@@ -1,6 +1,6 @@
 # Proactive Smart-Grid Defense: DRL-Powered Moving Target Defense Against False Data Injection Attacks
 
-This repository contains the code, selected model artifacts, representative outputs, and lightweight sample data associated with the manuscript:
+This repository contains the code, selected model artifacts, representative outputs, and sample data associated with the manuscript:
 
 **Proactive Smart-Grid Defense: DRL-Powered Moving Target Defense Against False Data Injection Attacks**
 
@@ -69,7 +69,7 @@ Configuration files controlling the experiment setup, case selection, network se
 
 ## Installation
 
-A lightweight Conda environment is included.
+A Conda environment is included.
 
 ```bash
 conda env create -f environment.yml
@@ -171,12 +171,7 @@ Additional notes are available in `data/README.md`.
 
 ---
 
-## Reproducibility Notes
 
-- The repository retains the code structure used during the main development and manuscript-preparation stages.
-- Selected model checkpoints and outputs are included to support quick verification of representative trends.
-- For a clean rerun on your own machine, you may wish to update dataset and output paths in the configuration files.
-- Because the workflow is configuration-based, reproducibility is best achieved by fixing the case, perturbation settings, agent type, and file paths before running.
 
 ---
 
@@ -195,35 +190,15 @@ Additional notes are available in `data/README.md`.
 
 This repository is released to support:
 - research reproducibility,
-- follow-up experiments on DRL-based MTD for smart-grid security,
 - educational use for researchers studying FDI attacks, MTD, and DRL in power systems.
 
 If you use this repository in academic work, please cite the associated paper once the final bibliographic details are available.
 
----
+will be added once the paper is published
 
-## Citation
 
-A `CITATION.cff` file and final citation metadata can be added after publication. Until then, please cite the associated manuscript using the title below:
 
-> **Proactive Smart-Grid Defense: DRL-Powered Moving Target Defense Against False Data Injection Attacks**
 
-A BibTeX entry can be added here once the journal, volume, pages, year, and DOI are finalized.
 
----
 
-## License
 
-Please add your preferred open-source license before making the repository public. A standard permissive license such as **MIT** or **BSD-3-Clause** is often suitable for research code, depending on your preference and institutional requirements.
-
----
-
-## Contact
-
-For questions related to the manuscript or repository, please contact the corresponding authors through the paper information or update this section with the preferred contact email before public release.
-
----
-
-## Acknowledgment
-
-This repository accompanies the research manuscript listed above and is prepared for public release to support transparency and reproducibility.
